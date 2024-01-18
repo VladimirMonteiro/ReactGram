@@ -5,7 +5,7 @@ import './Auth.css'
 const Login = () => {
 
     return(
-        <section>
+        <section id='login'>
             <h1>Login page</h1>
         </section>
 
