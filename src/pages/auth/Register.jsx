@@ -59,7 +59,8 @@ const Register = () => {
                 <input type="password" placeholder='Senha' onChange={(e) => setPassword(e.target.value)} value={password} />
                 <input type="password" placeholder='Confirme sua senha' onChange={(e) => setConfirmPassword(e.target.value)} value={confirmPassword} />
                 {!loading && <input type="submit" value='Cadastrar' />}
-                {loading && <input type="submit" value='Aguarde...' disabled />}
+                {loading && <input type="submit" value='Aguarde...
+                ' disabled />}
                 {error && <Message msg={error} type='error'/>}
             </form>
             <p>Já possui conta <Link to='/login'>Clique aqui.</Link></p>
