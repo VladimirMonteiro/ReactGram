@@ -1,5 +1,5 @@
-export const api = process.env.REACT_APP_API;
-export const uploads = process.env.REACT_APP_UPLOADS;
+export const api = import.meta.env.VITE_API_URL;
+export const uploads = import.meta.env.VITE_UPLOADS_URL;
 
 export const requestConfig = (method, data, token = null, image = null) => {
   let config;
